@@ -3,7 +3,7 @@ class ListSquare {
     list match {
     // If list is empty it return empty
       case Nil => Nil
-      // If list is not square then it square
+      // If list is not empty then it square
       case head :: tail => (head * head) :: squareList(tail)
     }
   }
